@@ -31,7 +31,9 @@ url: https://alexanderlazar.github.io # the base hostname & protocol for your si
 #github_username:  jekyll
 
 # Build settings
-theme: minima
+#theme: minima
+remote_theme:  gchauras/much-worse-jekyll-theme
+
 plugins:
   - jekyll-feed
 
