@@ -6,7 +6,7 @@ layout: page
 title: About Me
 permalink: /
 ---
-{% include_relative image.html url="images/fbphoto.jpg" caption="Portrait by Brittney Ellzey <br> <em>(Graphite on paper, ca. 2014)</em>" width="300px" align="right" %}
+{% include image.html url="images/fbphoto.jpg" caption="Portrait by Brittney Ellzey <br> <em>(Graphite on paper, ca. 2014)</em>" width="300px" align="right" %}
 
 I am a mathematician, currently working as a postdoc in the combinatorics group at [KTH] under the supervision of [Svante Linusson]. I completed my PhD in July of 2020 at the [University of Miami] under the [supervision] of [Michelle Wachs].
 
