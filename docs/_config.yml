@@ -16,7 +16,6 @@ author:
 # Build settings
 markdown: kramdown
 highlighter: rouge
-theme:
 plugins:
   - jekyll-feed 
 
