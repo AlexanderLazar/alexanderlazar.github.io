@@ -16,7 +16,8 @@ author:
 # Build settings
 markdown: kramdown
 highlighter: rouge
-theme: minima
+remote_theme: gchauras/much-worse-jekyll-theme
+
 plugins:
   - jekyll-feed 
 
