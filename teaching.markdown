@@ -10,4 +10,4 @@ I try and hold to [Federico Ardilla]'s four axioms for the practice of mathemati
 3. Mathematics is a powerful, malleable tool that can be shaped and used differently by various communities to serve their needs.
 4. Every student deserves to be treated with dignity and respect. 
 
-[Federico Ardilla]: http://math.sfsu.edu/federico/
+[Federico Ardilla]: https://fardila.com/
