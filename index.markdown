@@ -8,7 +8,7 @@ permalink: /
 ---
 {% include image.html url="images/fbphoto.jpg" caption="Portrait by Brittney Ellzey Mujica <br> <em>(Graphite on paper, ca. 2014)</em>" width="300px" align="right" %}
 
-I am a mathematician, currently working as a postdoc in the combinatorics group at [KTH] under the supervision of [Svante Linusson]. Starting in the fall I will be working as a postdoc in the [Algebra and Combinatorics group] at the [Université Libre de Bruxelles]. I completed my PhD in July of 2020 at the [University of Miami] under the [supervision] of [Michelle Wachs].
+I am a mathematician, currently working as a postdoc in  [Algebra and Combinatorics group] at the [Université Libre de Bruxelles]. Previously I was a postdoc at [KTH] under the supervision of [Svante Linusson]. I completed my PhD in July of 2020 at the [University of Miami] under the [supervision] of [Michelle Wachs].
 
 [KTH]: https://www.math.kth.se
 [Svante Linusson]: https://www.kth.se/profile/linusson
