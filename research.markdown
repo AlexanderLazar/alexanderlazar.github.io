@@ -47,6 +47,11 @@ slides:
       venue: "NORCOM 2022"
       location: "Troms&oslash;, Norway"
       url: "/slides/NORCOM.pdf"
+posters:
+    - title: "Vertex Order Shellings"
+      venue: "Séminaire Lotharingien de Combinatoire 89"
+      location: "Bertinoro, Italy"
+      url: "/posters/Brentifest Poster.pdf"
 ---
 
 My research is in algebraic, enumerative, and topological combinatorics. I'm particularly interested in problems involving hyperplane arrangements, 
@@ -82,6 +87,13 @@ Young tableaux, and permutation enumeration, as well as in structural questions 
 
 ## Talks
 {% for pub in page.slides %}
+[**{{pub.title}}**]({% if pub.internal %}{{pub.url | prepend: site.baseurl}}{% else %}{{pub.url}}{% endif %})<br />
+{{pub.venue}}<br />
+{{pub.location}}
+{% endfor %}
+
+## Posters
+{% for pub in page.posters %}
 [**{{pub.title}}**]({% if pub.internal %}{{pub.url | prepend: site.baseurl}}{% else %}{{pub.url}}{% endif %})<br />
 {{pub.venue}}<br />
 {{pub.location}}
