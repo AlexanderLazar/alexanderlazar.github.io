@@ -5,10 +5,10 @@ title: Research
 pubs:
     - title:   "On the q-Enumeration of Barely Set-Valued Plane Partitions and Linear Extensions"
       author:  "S. Hopkins, A. Lazar, S. Linusson"
-      #journal: "European Journal of Combinatorics"
-      #year:    "2021"
+      journal: "European Journal of Combinatorics"
+      year:    "to appear"
       url:     "https://arxiv.org/abs/2106.07418"
-      note:    "to appear in European Journal of Combinatorics"
+      
       
     - title:   "Ferrers Graphs, D-Permutations, and Surjective Staircases"
       author:  "A. Lazar"
@@ -35,7 +35,7 @@ pubs:
       url:     "https://www.combinatorics.org/ojs/index.php/eljc/article/view/v24i4p14"
 
 
-pres:
+#pres:
    
     
 abs:   
