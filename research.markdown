@@ -6,7 +6,7 @@ pubs:
     - title:   "On the q-Enumeration of Barely Set-Valued Plane Partitions and Linear Extensions"
       author:  "S. Hopkins, A. Lazar, S. Linusson"
       #journal: "European Journal of Combinatorics"
-      year:    "2021"
+      #year:    "2021"
       url:     "https://arxiv.org/abs/2106.07418"
       note:    "to appear in European Journal of Combinatorics"
       
