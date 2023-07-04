@@ -46,6 +46,11 @@ abs:
       year:    "2019"
       url:     "https://www.mat.univie.ac.at/~slc/wpapers/FPSAC2019/93.html"
 slides:
+    - title: "Set-Valued Tableaux: q-Enumeration and Catalan Combinatorics"
+      venue: "Journées Annuelles du GT CombAlg 2023"
+      location: "Paris, France"
+      url: "/slides/Paris 4-7-23.pdf"
+      
     - title: "Lexicographic Shellability Statistics"
       venue: "NORCOM 2022"
       location: "Troms&oslash;, Norway"
