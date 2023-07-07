@@ -6,8 +6,8 @@ pubs:
     - title:   "On the q-Enumeration of Barely Set-Valued Plane Partitions and Linear Extensions"
       author:  "S. Hopkins, A. Lazar, S. Linusson"
       journal: "European Journal of Combinatorics"
-      year:    "to appear"
-      url:     "https://arxiv.org/abs/2106.07418"
+      year:    "2023"
+      url:     "https://doi.org/10.1016/j.ejc.2023.103760"
       
       
     - title:   "Ferrers Graphs, D-Permutations, and Surjective Staircases"
