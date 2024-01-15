@@ -9,7 +9,6 @@ pubs:
       year:    "2023"
       url:     "https://doi.org/10.1016/j.ejc.2023.103760"
       
-      
     - title:   "Ferrers Graphs, D-Permutations, and Surjective Staircases"
       author:  "A. Lazar"
       journal: "The Ramanujan Journal"
@@ -35,7 +34,11 @@ pubs:
       url:     "https://www.combinatorics.org/ojs/index.php/eljc/article/view/v24i4p14"
 
 
-#pres:
+pres:
+    - title: "Shuffle Theorems and Sandpiles"
+      author: "M. D'Adderio, M. Dukes, A. Iraci, A. Lazar, Y. Le Borgne, A. Vanden Wyngaerd"
+      year: "2023"
+      url: "https://arxiv.org/abs/2401.06488"
    
     
 abs:   
