@@ -33,7 +33,6 @@ pubs:
       year:    "2017"
       url:     "https://www.combinatorics.org/ojs/index.php/eljc/article/view/v24i4p14"
 
-
 pres:
     - title: "Shuffle Theorems and Sandpiles"
       author: "M. D'Adderio, M. Dukes, A. Iraci, A. Lazar, Y. Le Borgne, A. Vanden Wyngaerd"
@@ -48,6 +47,19 @@ abs:
       #note: "Extended Abstract"
       year:    "2019"
       url:     "https://www.mat.univie.ac.at/~slc/wpapers/FPSAC2019/93.html"
+
+    - title: "Shuffle Theorems and Sandpiles"
+      author: "M. D'Adderio, M. Dukes, A. Iraci, A. Lazar, Y. Le Borgne, A. Vanden Wyngaerd"
+      journal: "S&eacute;minaire Lotharingien de Combinatoire"
+      note: "To Appear"
+      year: "2024"
+
+    - title: "Two-Row Set-Valued Young Tableaux: Catalan$^{+k}$ Combinatorics"
+      author: "A. Lazar, S. Linusson"
+      journal: "S&eacute;minaire Lotharingien de Combinatoire"
+      note: "To Appear"
+      year: "2024"
+      
 slides:
     - title: "Set-Valued Tableaux: q-Enumeration and Catalan Combinatorics"
       venue: "Journées Annuelles du GT CombAlg 2023"
