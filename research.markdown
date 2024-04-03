@@ -54,7 +54,7 @@ abs:
       note: "To Appear"
       year: "2024"
 
-    - title: "Two-Row Set-Valued Young Tableaux: Catalan$^{+k}$ Combinatorics"
+    - title: "Two-Row Set-Valued Young Tableaux: Catalan<sups>+k</sups> Combinatorics"
       author: "A. Lazar, S. Linusson"
       journal: "S&eacute;minaire Lotharingien de Combinatoire"
       note: "To Appear"
