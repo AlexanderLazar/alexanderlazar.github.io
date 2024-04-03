@@ -87,7 +87,8 @@ Young tableaux, and permutation enumeration, as well as in structural questions 
 {{pub.author}}<br />
 *{{pub.journal}}*
 {% if pub.note %} *({{pub.note}})*
-{% endif %} *{{pub.year}}* {% if pub.doi %}[[doi]({{pub.doi}})]{% endif %}
+{% endif %} {% if pub.doi %}[[doi]({{pub.doi}})]{% endif %}<br />
+*{{pub.year}}* 
 {% endfor %}
 
 ## Preprints
@@ -96,7 +97,8 @@ Young tableaux, and permutation enumeration, as well as in structural questions 
 [**{{pub.title}}**]({% if pub.internal %}{{pub.url | prepend: site.baseurl}}{% else %}{{pub.url}}{% endif %})<br />
 {{pub.author}} <br />
 {% if pub.note %} *({{pub.note}})*
-{% endif %} *{{pub.year}}* {% if pub.doi %}[[doi]({{pub.doi}})]{% endif %}
+{% endif %} {% if pub.doi %}[[doi]({{pub.doi}})]{% endif %}<br />
+*{{pub.year}}* 
 {% endfor %}
 
 ## Extended Abstracts
@@ -105,7 +107,8 @@ Young tableaux, and permutation enumeration, as well as in structural questions 
 {{pub.author}}<br />
 *{{pub.journal}}*
 {% if pub.note %} *({{pub.note}})*
-{% endif %} *{{pub.year}}* {% if pub.doi %}[[doi]({{pub.doi}})]{% endif %}
+{% endif %} {% if pub.doi %}[[doi]({{pub.doi}})]{% endif %}<br />
+*{{pub.year}}* 
 {% endfor %}
 
 ## Talks
