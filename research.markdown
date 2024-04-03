@@ -87,7 +87,7 @@ Young tableaux, and permutation enumeration, as well as in structural questions 
 {{pub.author}}<br />
 *{{pub.journal}}*
 {% if pub.note %} *({{pub.note}})*
-{% endif %} *({{pub.year}})* {% if pub.doi %}[[doi]({{pub.doi}})]{% endif %}
+{% endif %} *{{pub.year}}* {% if pub.doi %}[[doi]({{pub.doi}})]{% endif %}
 {% endfor %}
 
 ## Preprints
@@ -105,7 +105,7 @@ Young tableaux, and permutation enumeration, as well as in structural questions 
 {{pub.author}}<br />
 *{{pub.journal}}*
 {% if pub.note %} *({{pub.note}})*
-{% endif %} *({{pub.year}})* {% if pub.doi %}[[doi]({{pub.doi}})]{% endif %}
+{% endif %} *{{pub.year}}* {% if pub.doi %}[[doi]({{pub.doi}})]{% endif %}
 {% endfor %}
 
 ## Talks
