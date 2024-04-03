@@ -97,7 +97,7 @@ Young tableaux, and permutation enumeration, as well as in structural questions 
 [**{{pub.title}}**]({% if pub.internal %}{{pub.url | prepend: site.baseurl}}{% else %}{{pub.url}}{% endif %})<br />
 {{pub.author}} <br />
 {% if pub.note %} *({{pub.note}})*
-{% endif %} {% if pub.doi %}[[doi]({{pub.doi}})]{% endif %}<br />
+{% endif %} {% if pub.doi %}[[doi]({{pub.doi}})]<br />{% endif %}
 *{{pub.year}}* 
 {% endfor %}
 
