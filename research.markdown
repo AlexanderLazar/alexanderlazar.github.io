@@ -75,7 +75,7 @@ posters:
       venue: "FPSAC 2024"
       location: "Bochum, Germany"
       url: "/posters/FPSAC Poster 2024.pdf"
-      medianote: "An animation of our toppling algorithm."
+      medianote: "An animation of our toppling algorithm"
       media: "/images/Toppling.mp4"
       
     - title: "Vertex Order Shellings"
