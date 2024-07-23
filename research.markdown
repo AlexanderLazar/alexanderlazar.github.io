@@ -71,6 +71,12 @@ slides:
       location: "Troms&oslash;, Norway"
       url: "/slides/NORCOM.pdf"
 posters:
+    - title: "Shuffle Theorems and Sandpiles"
+      venue: "FPSAC 2024"
+      location: "Bochum, Germany"
+      url: "/posters/FPSAC Poster 2024.pdf"
+      media: "/images/Toppling.mp4"
+      
     - title: "Vertex Order Shellings"
       venue: "Séminaire Lotharingien de Combinatoire 89"
       location: "Bertinoro, Italy"
@@ -121,6 +127,7 @@ Young tableaux, and permutation enumeration, as well as in structural questions 
 ## Posters
 {% for pub in page.posters %}
 [**{{pub.title}}**]({% if pub.internal %}{{pub.url | prepend: site.baseurl}}{% else %}{{pub.url}}{% endif %})<br />
+{%if pub.media %} {{pub.media | prepend: site.baseurl}} {% endif %}
 {{pub.venue}}<br />
 {{pub.location}}
 {% endfor %}
