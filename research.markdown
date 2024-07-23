@@ -75,6 +75,7 @@ posters:
       venue: "FPSAC 2024"
       location: "Bochum, Germany"
       url: "/posters/FPSAC Poster 2024.pdf"
+      medianote: "An animation of our toppling algorithm."
       media: "/images/Toppling.mp4"
       
     - title: "Vertex Order Shellings"
@@ -127,7 +128,7 @@ Young tableaux, and permutation enumeration, as well as in structural questions 
 ## Posters
 {% for pub in page.posters %}
 [**{{pub.title}}**]({% if pub.internal %}{{pub.url | prepend: site.baseurl}}{% else %}{{pub.url}}{% endif %})<br />
-{%if pub.media %} {{pub.media | prepend: site.baseurl}} {% endif %}
+{%if pub.media %}[{{pub.medianote}}]({{pub.media | prepend: site.baseurl}}){% endif %}<br />
 {{pub.venue}}<br />
 {{pub.location}}
 {% endfor %}
