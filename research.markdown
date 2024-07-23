@@ -128,7 +128,7 @@ Young tableaux, and permutation enumeration, as well as in structural questions 
 ## Posters
 {% for pub in page.posters %}
 [**{{pub.title}}**]({% if pub.internal %}{{pub.url | prepend: site.baseurl}}{% else %}{{pub.url}}{% endif %})<br />
-{%if pub.media %}[{{pub.medianote}}]({{pub.media | prepend: site.baseurl}}){% endif %}<br />
+{%if pub.media %}[{{pub.medianote}}]({{pub.media | prepend: site.baseurl}})<br />{% endif %}
 {{pub.venue}}<br />
 {{pub.location}}
 {% endfor %}
