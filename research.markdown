@@ -99,50 +99,53 @@ My research is in algebraic, enumerative, and topological combinatorics. I'm par
 Young tableaux, and permutation enumeration, as well as in structural questions about the topology of simplicial complexes.
 
 ## Published Papers
-<nobr>
+
 {% for pub in page.pubs %}
+<nobr>
 [**{{pub.title}}**]({% if pub.internal %}{{pub.url | prepend: site.baseurl}}{% else %}{{pub.url}}{% endif %})<br />
 {{pub.author}}<br />
 *{{pub.journal}}*
 {% if pub.note %} *({{pub.note}})*
 {% endif %} {% if pub.doi %}[[doi]({{pub.doi}})]{% endif %}<br />
-*{{pub.year}}* 
-{% endfor %}</nobr>
+*{{pub.year}}*</nobr>
+{% endfor %}
 
 ## Preprints
-<nobr>
 {% for pub in page.pres %}
+<nobr>
 [**{{pub.title}}**]({% if pub.internal %}{{pub.url | prepend: site.baseurl}}{% else %}{{pub.url}}{% endif %})<br />
 {{pub.author}} <br />
 {% if pub.note %} *({{pub.note}})*
 {% endif %} {% if pub.doi %}[[doi]({{pub.doi}})]<br />{% endif %}
-*{{pub.year}}* 
-{% endfor %}</nobr>
+*{{pub.year}}*</nobr>
+{% endfor %}
 
 ## Extended Abstracts
-<nobr>
 {% for pub in page.abs %}
+<nobr>
 [**{{pub.title}}**]({% if pub.internal %}{{pub.url | prepend: site.baseurl}}{% else %}{{pub.url}}{% endif %})<br />
 {{pub.author}}<br />
 *{{pub.journal}}*
 {% if pub.note %} *({{pub.note}})*
 {% endif %} {% if pub.doi %}[[doi]({{pub.doi}})]{% endif %}<br />
-*{{pub.year}}* 
-{% endfor %}</nobr>
+*{{pub.year}}* </nobr>
+{% endfor %}
 
 ## Talks
-<nobr>
 {% for pub in page.slides %}
+<nobr>
 [**{{pub.title}}**]({% if pub.internal %}{{pub.url | prepend: site.baseurl}}{% else %}{{pub.url}}{% endif %})<br />
 {{pub.venue}}<br />
 {{pub.location}}
-{% endfor %}</nobr>
+</nobr>
+{% endfor %}
 
 ## Posters
-<nobr>
+
 {% for pub in page.posters %}
 [**{{pub.title}}**]({% if pub.internal %}{{pub.url | prepend: site.baseurl}}{% else %}{{pub.url}}{% endif %})<br />
 {%if pub.media %}[{{pub.medianote}}]({{pub.media | prepend: site.baseurl}})<br />{% endif %}
 {{pub.venue}}<br />
 {{pub.location}}
-{% endfor %}</nobr>
+</nobr>
+{% endfor %}
