@@ -34,25 +34,18 @@ pubs:
       url:     "https://www.combinatorics.org/ojs/index.php/eljc/article/view/v24i4p14"
 
 pres:
-    - title: "Shuffle Theorems and Sandpiles"
-      author: "M. D'Adderio, M. Dukes, A. Iraci, A. Lazar, Y. Le Borgne, A. Vanden Wyngaerd"
-      year: "2023"
-      url: "https://arxiv.org/abs/2401.06488"
-
     - title: "Decorated Square Paths at q = -1"
       author: "S. Corteel, A. Lazar, A. Vanden Wyngaerd"
       year: "2024"
       url: "https://arxiv.org/abs/2408.10640"
+      
+    - title: "Shuffle Theorems and Sandpiles"
+      author: "M. D'Adderio, M. Dukes, A. Iraci, A. Lazar, Y. Le Borgne, A. Vanden Wyngaerd"
+      year: "2023"
+      url: "https://arxiv.org/abs/2401.06488"
    
     
-abs:   
-    - title:   "On the Homogenized Linial Arrangement: Intersection Lattice and Genocchi Numbers"
-      author:  "A. Lazar, M. Wachs"
-      journal: "S&eacute;minaire Lotharingien de Combinatoire"
-      #note: "Extended Abstract"
-      year:    "2019"
-      url:     "https://www.mat.univie.ac.at/~slc/wpapers/FPSAC2019/93.html"
-
+abs: 
     - title: "Shuffle Theorems and Sandpiles"
       author: "M. D'Adderio, M. Dukes, A. Iraci, A. Lazar, Y. Le Borgne, A. Vanden Wyngaerd"
       journal: "S&eacute;minaire Lotharingien de Combinatoire"
@@ -64,6 +57,13 @@ abs:
       journal: "S&eacute;minaire Lotharingien de Combinatoire"
       year: "2024"
       url: "https://www.mat.univie.ac.at/~slc/wpapers/FPSAC2024/80.html"
+      
+    - title:   "On the Homogenized Linial Arrangement: Intersection Lattice and Genocchi Numbers"
+      author:  "A. Lazar, M. Wachs"
+      journal: "S&eacute;minaire Lotharingien de Combinatoire"
+      #note: "Extended Abstract"
+      year:    "2019"
+      url:     "https://www.mat.univie.ac.at/~slc/wpapers/FPSAC2019/93.html"
       
 slides:
     - title: "Set-Valued Tableaux: q-Enumeration and Catalan Combinatorics"
@@ -99,7 +99,7 @@ My research is in algebraic, enumerative, and topological combinatorics. I'm par
 Young tableaux, and permutation enumeration, as well as in structural questions about the topology of simplicial complexes.
 
 ## Published Papers
-
+<nobr>
 {% for pub in page.pubs %}
 [**{{pub.title}}**]({% if pub.internal %}{{pub.url | prepend: site.baseurl}}{% else %}{{pub.url}}{% endif %})<br />
 {{pub.author}}<br />
@@ -107,19 +107,20 @@ Young tableaux, and permutation enumeration, as well as in structural questions 
 {% if pub.note %} *({{pub.note}})*
 {% endif %} {% if pub.doi %}[[doi]({{pub.doi}})]{% endif %}<br />
 *{{pub.year}}* 
-{% endfor %}
+{% endfor %}</nobr>
 
 ## Preprints
-
+<nobr>
 {% for pub in page.pres %}
 [**{{pub.title}}**]({% if pub.internal %}{{pub.url | prepend: site.baseurl}}{% else %}{{pub.url}}{% endif %})<br />
 {{pub.author}} <br />
 {% if pub.note %} *({{pub.note}})*
 {% endif %} {% if pub.doi %}[[doi]({{pub.doi}})]<br />{% endif %}
 *{{pub.year}}* 
-{% endfor %}
+{% endfor %}</nobr>
 
 ## Extended Abstracts
+<nobr>
 {% for pub in page.abs %}
 [**{{pub.title}}**]({% if pub.internal %}{{pub.url | prepend: site.baseurl}}{% else %}{{pub.url}}{% endif %})<br />
 {{pub.author}}<br />
@@ -127,19 +128,21 @@ Young tableaux, and permutation enumeration, as well as in structural questions 
 {% if pub.note %} *({{pub.note}})*
 {% endif %} {% if pub.doi %}[[doi]({{pub.doi}})]{% endif %}<br />
 *{{pub.year}}* 
-{% endfor %}
+{% endfor %}</nobr>
 
 ## Talks
+<nobr>
 {% for pub in page.slides %}
 [**{{pub.title}}**]({% if pub.internal %}{{pub.url | prepend: site.baseurl}}{% else %}{{pub.url}}{% endif %})<br />
 {{pub.venue}}<br />
 {{pub.location}}
-{% endfor %}
+{% endfor %}</nobr>
 
 ## Posters
+<nobr>
 {% for pub in page.posters %}
 [**{{pub.title}}**]({% if pub.internal %}{{pub.url | prepend: site.baseurl}}{% else %}{{pub.url}}{% endif %})<br />
 {%if pub.media %}[{{pub.medianote}}]({{pub.media | prepend: site.baseurl}})<br />{% endif %}
 {{pub.venue}}<br />
 {{pub.location}}
-{% endfor %}
+{% endfor %}</nobr>
