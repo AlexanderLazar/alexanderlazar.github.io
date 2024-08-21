@@ -101,47 +101,42 @@ Young tableaux, and permutation enumeration, as well as in structural questions 
 ## Published Papers
 
 {% for pub in page.pubs %}
-<nobr>
 [**{{pub.title}}**]({% if pub.internal %}{{pub.url | prepend: site.baseurl}}{% else %}{{pub.url}}{% endif %})<br />
 {{pub.author}}<br />
 *{{pub.journal}}*
 {% if pub.note %} *({{pub.note}})*
 {% endif %} {% if pub.doi %}[[doi]({{pub.doi}})]{% endif %}<br />
-*{{pub.year}}*</nobr>
+*{{pub.year}}*
 {% endfor %}
 
 ## Preprints
 {% for pub in page.pres %}
-<nobr>
 [**{{pub.title}}**]({% if pub.internal %}{{pub.url | prepend: site.baseurl}}{% else %}{{pub.url}}{% endif %})<br />
 {{pub.author}} <br />
 {% if pub.note %} *({{pub.note}})*
 {% endif %} {% if pub.doi %}[[doi]({{pub.doi}})]<br />{% endif %}
-*{{pub.year}}*</nobr>
+*{{pub.year}}*
 {% endfor %}
 
 ## Extended Abstracts
 {% for pub in page.abs %}
-<nobr>
 [**{{pub.title}}**]({% if pub.internal %}{{pub.url | prepend: site.baseurl}}{% else %}{{pub.url}}{% endif %})<br />
 {{pub.author}}<br />
 *{{pub.journal}}*
 {% if pub.note %} *({{pub.note}})*
 {% endif %} {% if pub.doi %}[[doi]({{pub.doi}})]{% endif %}<br />
-*{{pub.year}}* </nobr>
+*{{pub.year}}*
 {% endfor %}
 
 ## Talks
 {% for pub in page.slides %}
-<nobr>
 [**{{pub.title}}**]({% if pub.internal %}{{pub.url | prepend: site.baseurl}}{% else %}{{pub.url}}{% endif %})<br />
 {{pub.venue}}<br />
 {{pub.location}}
-</nobr>
 {% endfor %}
 
 ## Posters
-
+<nobr>
 {% for pub in page.posters %}
 [**{{pub.title}}**]({% if pub.internal %}{{pub.url | prepend: site.baseurl}}{% else %}{{pub.url}}{% endif %})<br />
 {%if pub.media %}[{{pub.medianote}}]({{pub.media | prepend: site.baseurl}})<br />{% endif %}
