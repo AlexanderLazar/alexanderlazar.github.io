@@ -51,14 +51,14 @@ abs:
     - title: "Shuffle Theorems and Sandpiles"
       author: "M. D'Adderio, M. Dukes, A. Iraci, A. Lazar, Y. Le Borgne, A. Vanden Wyngaerd"
       journal: "S&eacute;minaire Lotharingien de Combinatoire"
-      note: "To Appear"
       year: "2024"
+      url: "https://www.mat.univie.ac.at/~slc/wpapers/FPSAC2024/70.html"
 
     - title: "Two-Row Set-Valued Young Tableaux: Catalan<sup>+k</sup> Combinatorics"
       author: "A. Lazar, S. Linusson"
       journal: "S&eacute;minaire Lotharingien de Combinatoire"
-      note: "To Appear"
       year: "2024"
+      url: "https://www.mat.univie.ac.at/~slc/wpapers/FPSAC2024/80.html"
       
 slides:
     - title: "Set-Valued Tableaux: q-Enumeration and Catalan Combinatorics"
@@ -70,6 +70,7 @@ slides:
       venue: "NORCOM 2022"
       location: "Troms&oslash;, Norway"
       url: "/slides/NORCOM.pdf"
+      
 posters:
     - title: "Shuffle Theorems and Sandpiles"
       venue: "FPSAC 2024"
@@ -82,6 +83,11 @@ posters:
       venue: "Séminaire Lotharingien de Combinatoire 89"
       location: "Bertinoro, Italy"
       url: "/posters/Brentifest Poster.pdf"
+
+    - title: "On the Homogenized Linial Arrangement: Intersection Lattice and Genocchi Numbers"
+      venue: "FPSAC 2019"
+      location: "Ljubljana, Slovenia"
+      url: "/posters/FPSAC Poster 2019.pdf"
 ---
 
 My research is in algebraic, enumerative, and topological combinatorics. I'm particularly interested in problems involving hyperplane arrangements, 
