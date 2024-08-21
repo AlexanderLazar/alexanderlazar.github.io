@@ -38,6 +38,11 @@ pres:
       author: "M. D'Adderio, M. Dukes, A. Iraci, A. Lazar, Y. Le Borgne, A. Vanden Wyngaerd"
       year: "2023"
       url: "https://arxiv.org/abs/2401.06488"
+
+    - title: "Decorated Square Paths at q = -1"
+      author: "S. Corteel, A. Lazar, A. Vanden Wyngaerd"
+      year: "2024"
+      url: "https://arxiv.org/abs/2408.10640"
    
     
 abs:   
