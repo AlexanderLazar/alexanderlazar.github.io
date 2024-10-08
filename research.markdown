@@ -34,6 +34,11 @@ pubs:
       url:     "https://www.combinatorics.org/ojs/index.php/eljc/article/view/v24i4p14"
 
 pres:
+    - title: "Set-Valued Catalan Combinatorics"
+      author: "A. Lazar, S. Linusson"
+      year: "2024"
+      url: "https://arxiv.org/abs/2410.04860"
+    
     - title: "Decorated Square Paths at q = -1"
       author: "S. Corteel, A. Lazar, A. Vanden Wyngaerd"
       year: "2024"
