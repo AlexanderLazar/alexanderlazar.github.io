@@ -47,6 +47,7 @@ pres:
     - title: "Shuffle Theorems and Sandpiles"
       author: "M. D'Adderio, M. Dukes, A. Iraci, A. Lazar, Y. Le Borgne, A. Vanden Wyngaerd"
       year: "2023"
+      note: "To appear in Communications in Mathematical Physics"
       url: "https://arxiv.org/abs/2401.06488"
    
     
