@@ -72,6 +72,11 @@ abs:
       url:     "https://www.mat.univie.ac.at/~slc/wpapers/FPSAC2019/93.html"
       
 slides:
+    - title: "Noncrossing Bonds in Ferrers Graphs"
+      venue: "ESI Workshop: Recent Perspectives on Non-crossing Partitions through Algebra, Combinatorics, and Probability"
+      location: "Vienna, Austria"
+      url: "/slides/ESI Feb 2025.pdf"
+      
     - title: "Set-Valued Tableaux: q-Enumeration and Catalan Combinatorics"
       venue: "Journées Annuelles du GT CombAlg 2023"
       location: "Paris, France"
