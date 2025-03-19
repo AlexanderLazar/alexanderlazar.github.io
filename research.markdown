@@ -3,6 +3,12 @@ layout: page
 permalink: /research/
 title: Research
 pubs:
+    - title: "Shuffle Theorems and Sandpiles"
+      author: "M. D'Adderio, M. Dukes, A. Iraci, A. Lazar, Y. Le Borgne, A. Vanden Wyngaerd"
+      journal: "Communications in Mathematical Physics"
+      year: "2025"
+      url: "https://doi.org/10.1007/s00220-025-05233-5"
+      
     - title:   "On the q-Enumeration of Barely Set-Valued Plane Partitions and Linear Extensions"
       author:  "S. Hopkins, A. Lazar, S. Linusson"
       journal: "European Journal of Combinatorics"
@@ -43,12 +49,6 @@ pres:
       author: "S. Corteel, A. Lazar, A. Vanden Wyngaerd"
       year: "2024"
       url: "https://arxiv.org/abs/2408.10640"
-      
-    - title: "Shuffle Theorems and Sandpiles"
-      author: "M. D'Adderio, M. Dukes, A. Iraci, A. Lazar, Y. Le Borgne, A. Vanden Wyngaerd"
-      year: "2023"
-      note: "To appear in Communications in Mathematical Physics"
-      url: "https://arxiv.org/abs/2401.06488"
    
     
 abs: 
