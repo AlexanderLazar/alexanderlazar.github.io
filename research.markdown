@@ -52,6 +52,12 @@ pres:
    
     
 abs: 
+    - title: "Positivity Phenomena for Lattice Paths at q = -1"
+      author: "S. Corteel, A. Lazar, A. Vanden Wyngaerd"
+      journal: "S&eacute;minaire Lotharingien de Combinatoire"
+      year: "2025"
+      url: "https://www.mat.univie.ac.at/~slc/wpapers/FPSAC2025/57.pdf"
+      
     - title: "Shuffle Theorems and Sandpiles"
       author: "M. D'Adderio, M. Dukes, A. Iraci, A. Lazar, Y. Le Borgne, A. Vanden Wyngaerd"
       journal: "S&eacute;minaire Lotharingien de Combinatoire"
