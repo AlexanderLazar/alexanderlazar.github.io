@@ -88,6 +88,11 @@ slides:
       url: "/slides/NORCOM.pdf"
       
 posters:
+    - title: "Positivity Phenomena for Lattice Paths at q = -1"
+      venue: "FPSAC 2025"
+      location: "Sapporo, Japan"
+      url: "/posters/FPSAC Poster 2025.pdf"
+      
     - title: "Shuffle Theorems and Sandpiles"
       venue: "FPSAC 2024"
       location: "Bochum, Germany"
